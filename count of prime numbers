@@ -1,0 +1,13 @@
+numr=int(input("Enter input till the value required: "))
+count = 0
+for n in range(2,numr):
+    for i in range(2,n):
+        if(n%i==0):
+            break
+    else:
+        count = count + 1
+print("Number of prime numbers between are:",count)
+
+output
+Enter input till the value required: 6
+Number of prime numbers between are: 3
